@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity"
+    android:background="@drawable/accurajackets">
+
+    <!-- Login progress -->
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView
+        android:id="@+id/su_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/su_email_login_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pc_patientPhoto"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/pc_patientid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Patient ID: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_firstname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Firstname: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_lastname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Lastname: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Sex: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_dateofbirth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Date of Birth: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Height: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Weight: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_eyecolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Eyecolor: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Age: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_cellphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Cellphone: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_homephone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Homephone: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_driverlicense"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Driver License: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_driverlicense"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Driver License: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_emergencycontactname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Emergency Contact Name: "
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/pc_emergencycontactphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Emergency Contact Phone: "
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

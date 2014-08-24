@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/accurajackets">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/wp_AccuraJacket"
+            android:layout_width="340dp"
+            android:layout_height="280dp"
+            android:background="@drawable/accurajacket1"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/wp_sign_up_button"
+            style="@style/ButtonFont"
+            android:text="Sign Up"
+            android:background="#FEF786"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/wp_AccuraJacket"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/wp_search_button"
+            style="@style/ButtonFont"
+            android:text="Search"
+            android:background="#FEF786"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/wp_sign_up_button"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+
+</LinearLayout>

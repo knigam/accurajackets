@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/accurajackets">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/space" />
+
+    <TextView
+        android:id="@+id/pv_age"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Age: "
+        android:layout_gravity="right"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/pv_imageView"
+        android:layout_toEndOf="@+id/pv_imageView"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pv_lastname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Last name: "
+        android:layout_gravity="right"
+        android:layout_toEndOf="@+id/pv_imageView"
+        android:layout_alignTop="@+id/pv_imageView"
+        android:layout_toRightOf="@+id/pv_imageView"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pv_sex"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sex: "
+        android:layout_gravity="right"
+        android:layout_toEndOf="@+id/pv_imageView"
+        android:layout_alignBottom="@+id/pv_imageView"
+        android:layout_toRightOf="@+id/pv_imageView"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/pv_imageView"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/pv_create_button"
+        style="@style/ButtonFont"
+        android:text="Yes, this is ME"
+        android:background="#FEF786"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp" />
+
+    <TextView
+        android:id="@+id/pv_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Confirmation"
+        android:textStyle="bold"
+        android:layout_below="@+id/space"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+</RelativeLayout>
